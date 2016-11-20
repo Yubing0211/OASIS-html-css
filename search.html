@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OASIS - About</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+    
+    </head>
+    <body>
+        <div>
+            <header>
+                <div class="header-content">
+                    <a href="index.html"><img src="images/logo.png"></a>
+                </div>
+                <div class="headre-nav">
+                    <nav id="main_nav">
+                        <ul>
+                            <li><a href="index.html">ABOUT</a></li>
+                            <li class="current"><a href="search.html" >SEARCH</a></li>
+                            <li><a href="class.html">CLASS</a></li>
+                            <li><a href="test.html">TEST</a></li>
+                            
+                        </ul>
+                    </nav>
+                    <nav id="title_nav">
+                        <ul>
+                            <li><a href="#">LOG IN</a></li>
+                            <li><a href="#">SIGN UP</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                 <div class="navicon">
+                        <a class="nav-toggle" href="#"><span></span></a>
+                    </div>
+            </header>
+            <article>
+                <div class="first-part">
+                    <h1>Search for training studio</h1>
+                    <form id="searchcondition">
+                    <fieldset>
+                        <div>
+                            <p>Your address:</p>
+                            <input id="locationinput" type="text" name="loacationSearch" id="locationSearch" placeholder="4612 Forbes Avenue" required>
+                        </div>
+                        <div>
+                            <p>What is your gender?</p>
+                            <input type="radio" name="gender" id="male" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="female" value="female">
+                            <label for="female">Female</label>
+                        </div>
+                        <div>
+                            <p>How far?</p>  
+                            <input type="radio" name="distance" id="over5miles" value="over5miles">
+                            <label for="over5miles">Over 5 miles</label>
+                            <input type="radio" name="distance" id="3-5mile" value="3-5mile">
+                            <label for="3-5mile">4 to 5 miles</label>
+                            <input type="radio" name="distance" id="2-3miles" value="2-3miles">
+                            <label for="2-3miles">3 to 4 miles</label>
+                            <input type="radio" name="distance" id="2-3miles" value="2-3miles">
+                            <label for="2-3miles">2 to 3 miles</label>
+                            <input type="radio" name="distance" id="around1mile" value="around1mile">
+                            <label for="around1mile">Around a mile</label>
+                        </div>
+                        <div id="locationsubmit"> 
+                        <input type="submit" value="Submit!">
+                        <p class="clear"></p>
+                        </div>
+                        
+                    </fieldset>
+                    </form>
+                </div>
+                <div class="second-part mapsearch">
+                    <h1>View in Google Map</h1>
+                    <section>
+                        <h3>Ryer Martial Arts Academy</h3>
+                        <div class="videoWrapper">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/iDrSXv_wyow" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div>
+                            <h5>Score: 4.7</h5>
+                            <ul>
+                                <li>5440 Centre Ave, Pittsburgh, PA 15232</li>
+                                <li><a href="http://www.pittsburghkarate.com/">ryeracademy.com</a></li>
+                                <li>(412)268-2000</li>
+                            </ul>
+                            <a href="studio.html"><p  class="detailbutton">More Details</p></a>
+                        </div>
+                        <div>
+                            <h3>Wright's Gym/Krav Maga Pittsburgh</h3>
+                            <h3>Pittsburgh Martial Arts & Boxing Academy</h3>
+                            <h3>Stout Training Pittsburgh</h3>
+                            <h3>USA Professional Karate</h3>
+                        </div>
+                    </section>
+                    <aside>
+                        <div id="map"></div>
+                        <script>
+                        function myMap() {
+                          var mapCanvas = document.getElementById("map");
+                          var mapOptions = {
+                            center: new google.maps.LatLng(40.4, -79.9),
+                            zoom: 10
+                          }
+                          var map = new google.maps.Map(mapCanvas, mapOptions);
+                        }
+                        </script>
+                        <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>              
+                    </aside>
+                    
+                </div>
+            </article>
+            <div class="clear"></div>
+            <footer>
+                <ul>
+                    <li>About us</li>
+                    <li>Need help</li>
+                    <li>Contact us</li>
+                </ul>
+                <p>©2016 OASIS. All rights reserved by Yubing Zhang.</p>
+            </footer>
+        </div>
+    </body>
+</html>

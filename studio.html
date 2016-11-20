@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OASIS - About</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#flip").click(function(){
+                    $("#panel").show(1);
+                    $("#panel1").hide(1);
+                    $("#panel2").hide(1);
+                });
+                $("#flip1").click(function(){
+                    $("#panel1").show(1);
+                    $("#panel").hide(1);
+                    $("#panel2").hide(1);
+                });
+                $("#flip2").click(function(){
+                    $("#panel2").show(1);
+                    $("#panel").hide(1);
+                    $("#panel1").hide(1);
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div>
+            <header>
+                <div class="header-content">
+                    <a href="index.html"><img src="images/logo.png"></a>
+                </div>
+                <div class="headre-nav">
+                    <nav id="main_nav">
+                        <ul>
+                            <li><a href="index.html">ABOUT</a></li>
+                            <li><a href="search.html">SEARCH</a></li>
+                            <li><a href="class.html"  >CLASS</a></li>
+                            <li><a href="test.html">TEST</a></li>
+                            
+                        </ul>
+                    </nav>
+                    <nav id="title_nav">
+                        <ul>
+                            <li><a href="#">LOG IN</a></li>
+                            <li><a href="#">SIGN UP</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                 <div class="navicon">
+                        <a class="nav-toggle" href="#"><span></span></a>
+                    </div>
+            </header>
+            <body>
+                <article>
+                   <div class="contact">  
+                       <h1>Ryer Academy in Pittsburgh</h1>      
+                        <p class="clear"></p>
+                    </div>
+                    <div class="first-part studiodetail">
+                        <p>Ryer Academy's goal is to strengthen lives through professional martial arts. We offer programs for the entire family; Pre-School, Youth, and Teen classes as well as Adult self-defense for men and women. Finally, we have blended the benefits of martial arts and fitness into our popular Kickboxing classes. Join us for a free week of classes and discover Ryer Academy!</p>
+                            <ul>
+                                <li>Location: 5440 Centre Ave, Pittsburgh, PA 15232</li>
+                                <li>website: <a href="http://www.pittsburghkarate.com/">ryeracademy.com</a></li>
+                                <li>Phone number: (412)268-2000</li>
+                            </ul>
+                    </div>
+                    <div class="video second-part">
+                        <h1>Welcome To Ryer Academy In Pittsburgh</h1>
+                        <section>
+                          <div class="videoWrapper">
+                           <iframe width="560" height="315" src="https://www.youtube.com/embed/iDrSXv_wyow" frameborder="0" allowfullscreen></iframe>
+                           </div>
+                        </section>
+                        <aside>
+                            <h3>Please check our class list</h3>
+                            <ul>
+                                <li>Beginning: class 1</li>
+                                <li>Beginning: class 2</li>
+                                <li>Beginning: class 3</li>
+                                <li>Beginning: class 4</li>
+                                <li>Beginning: class 5</li>
+                                <li>Beginning: class 6</li>
+                                <li>Medium class 1</li>
+                                <li>Medium class 2</li>
+                                <li>Medium class 3</li>
+                                <li>Medium class 4</li>
+                                <li>Medium class 5</li>
+                                <li>Medium class 6</li>
+                                <li>Medium class 7</li>
+                                <li>Advanced: class 1</li>
+                                <li>Advanced: class 2</li>
+                                <li>Advanced: class 3</li>
+                                <li>Advanced: class 4</li>
+                                <li>Advanced: class 5</li>
+                                <li>Advanced: class 6</li>
+                            </ul>
+                        </aside>
+                        <p class="clear"></p>
+
+                    </div>
+                    
+                    <div class="third-part">
+                        <h1>Want to know more about this studio?</h1>
+                        <div class="controlmenu">
+                            <hygroup  id="flip">
+                                <img src="images/1.png">
+                                <h3>Check our courses</h3>
+                            </hygroup>
+                            <hygroup  id="flip1">
+                                <img src="images/2.png">
+                                <h3>View our classroom</h3>
+                            </hygroup>
+                            <hygroup  id="flip2">
+                                <img src="images/3.png">
+                                <h3>Meet our trainers here</h3>
+                            </hygroup>
+                        </div>
+                            <p class="clear"></p>
+
+                        <div class="moredetail" id="panel">
+                            <h2>Check our courses</h2>
+                            <p>Ryer Academy offers Adult Martial Arts classes for men and women in reality-based self defense. We teach the Counterpoint Tactical System, also known by the acronym CTS, which is designed to train individuals to be well-versed in every phase of armed and unarmed situations. Join us for a free week of classes and discover Ryer Academy!</p>
+                            <div class="gallery">
+                                <figure class="course1">
+                                    <figcaption>
+                                        <p>This is a introduce of our class, please check out more here.</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="course2">
+                                    <figcaption>
+                                        <p>This is a introduce of our class, please check out more here.</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="course3">
+                                    <figcaption>
+                                        <p>This is a introduce of our class, please check out more here.</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="course4">
+                                    <figcaption>
+                                        <p>This is a introduce of our class, please check out more here.</p>
+                                    </figcaption>
+                                </figure>
+                                <p class="clear"></p>
+
+                            </div>
+                        </div>
+                        <div class="moredetail" id="panel1">
+                            <h2>Studio here</h2>
+                            <p>Self-defense instructors have good intentions when deciding to provide training in personal protection and understand the benefit of offering reality based self-defense training to their students. However, when someone purchases a suit of protective body armor it does not mean they are qualified to train in it as a padded assailant or safely conduct reality based training. Not only will equipment vary with imitation suits but also the capabilities of what activities can be practices and subsequently the realism varies.</p>
+                            <div  class="gallery">
+                                <figure class="studio1">
+                                    <figcaption>
+                                        <p>This is our studio. We have very fancy equioments to help you build your body.</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="studio2">
+                                    <figcaption>
+                                        <p>This is our studio. We have very fancy equioments to help you build your body.</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="studio3">
+                                    <figcaption>
+                                        <p>This is our studio. We have very fancy equioments to help you build your body.</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="studio4">
+                                    <figcaption>
+                                        <p>This is our studio. We have very fancy equioments to help you build your body.</p>
+                                    </figcaption>
+                                </figure>
+                                <p class="clear"></p>
+                            </div>
+                        </div>
+                        <div class="moredetail" id="panel2">
+                            <h2>Trainers here</h2>
+                            <p>
+The R.A.D. Systems of Self Defense offers programs for women, children, men and seniors. These offerings provide a truly holistic approach to self defense education, supporting the necessity of continuous learning in order to provide realistic options for each population as they go through life. Each of these programs includes educational components comprised of lecture, discussion, physical resistive strategies. All of which are facilitated by certified R.A.D. Instructors supported by a network of dedicated professionals who honor one another’s student through our unique Lifetime Return and Practice Policy.</p>
+                            <div class="gallery">
+                                <figure class="trainer1">
+                                    <figcaption>
+                                        <p>This is a introduce of our trainer, please check out more here.</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="trainer2">
+                                    <figcaption>
+                                        <p>This is a introduce of our trainer, please check out more here.</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="trainer3">
+                                    <figcaption>
+                                        <p>This is a introduce of our trainer, please check out more here.</p>
+                                    </figcaption>
+                                </figure>
+                                <figure class="trainer4">
+                                    <figcaption>
+                                        <p>This is a introduce of our trainer, please check out more here.</p>
+                                    </figcaption>
+                                </figure>
+                                <p class="clear"></p>
+                            </div>
+                    </div>
+                    </div>
+                </article>
+            </body>
+            <footer>
+                <ul>
+                    <li>About us</li>
+                    <li>Need help</li>
+                    <li>Contact us</li>
+                </ul>
+                <p>©2016 OASIS. All rights reserved by Yubing Zhang.</p>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OASIS - About</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $(".questions").hide();
+            $(".questions1").hide();
+            $(".questions2").hide();
+            $(".questions3").hide();
+            $(".popup").click(function(){
+                $(".questions").toggle();
+            });
+            $(".popup1").click(function(){
+                $(".questions1").toggle();
+            });
+            $(".popup2").click(function(){
+                $(".questions2").toggle();
+            });
+            $(".popup3").click(function(){
+                $(".questions3").toggle();
+            });
+        });
+        </script>
+    
+    </head>
+    <body>
+        <div>
+            <header>
+                <div class="header-content">
+                    <a href="index.html"><img src="images/logo.png"></a>
+                </div>
+                <div class="headre-nav">
+                    <nav id="main_nav">
+                        <ul>
+                            <li><a href="index.html">ABOUT</a></li>
+                            <li><a href="search.html">SEARCH</a></li>
+                            <li><a href="class.html">CLASS</a></li>
+                            <li class="current"><a href="test.html"  >TEST</a></li>
+                            
+                        </ul>
+                    </nav>
+                    <nav id="title_nav">
+                        <ul>
+                            <li><a href="#">LOG IN</a></li>
+                            <li><a href="#">SIGN UP</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                 <div class="navicon">
+                        <a class="nav-toggle" href="#"><span></span></a>
+                    </div>
+            </header>
+            <p class="clear"></p>
+            <article>
+                <div class="trainingclass">
+                    <h1>Now let us do a test to find the best training for you!</h1>
+                    </div>
+                <div class="first-part">
+                    <p>There are many styles and disciplines to choose from. No one martial art is better than another, the only right martial art is the one you’ll be happy continuing. Take this test to determine your mental and physical attributes to be paired up with one of ten specific styles listed. Of course there are more than this, but this list is comprised of "some" mainstream disciplines that have very different histories, philosophies and characteristics.There are 26 multiple choice questions that should be answered with honesty to best suit you to your match. Some questions may have several answers that you agree with, or non that you agree with, but you should try to answer the best possible one. At the end of the test your result will appear with a brief description of the art. Please enjoy and comment afterwards. I WILL RESPOND TO ALL COMMENTS regarding the test.</p>
+                </div>
+                <div class="second-part">
+                <form>
+                  <h1>Test</h1>
+                   <h3 class="popup">PART 1: Basic information</h3>
+                    <fieldset class="questions">       
+                        <p>1. What is your gender?</p>
+                        <div>
+                                <input type="radio" name="gender" id="male" value="male">
+                                <label for="male">Male</label>
+                                <input type="radio" name="gender" id="female" value="female">
+                                <label for="female">Female</label>
+                            </div>
+                        <p>2. What is your age?</p>
+                            <div>
+                                <input type="radio" name="age" id="under18" value="under18"> 
+                                <label for="under18">Under 18 Years Old</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="age" id="18-30" value="18-30"> 
+                                <label for="18-30">18 to 30 Years Old</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="age" id="31-40" value="31-40"> 
+                                <label for="31-40">31 to 40 Years Old</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="age" id="41-50" value="41-50"> 
+                                <label for="41-50"> 41 to 50 Years Old</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="age" id="over50" value="over50"> 
+                                <label for="over50">Over 50 Years Old</label>
+                            </div>
+                        </fieldset>
+                    <h3 class="popup1">PART 2: Personal perference</h3>    
+                    <fieldset class="questions1">
+                        <p>How long you want to spend on training every week?</p>
+                            <div>
+                                <input type="radio" name="time" id="1h" value="1h"> 
+                                <label for="1h">Less than 1 hour</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="time" id="2h" value="2h"> 
+                                <label for="2h">From 1 hour to 2 hours</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="time" id="3h" value="3h"> 
+                                <label for="3h">From 2 hour to 3 hours</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="time" id="4h" value="4h"> 
+                                <label for="4h">From 3 hour to 4 hours</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="time" id="5h" value="5h"> 
+                                <label for="5h">More than 5 hours</label>
+                            </div>
+                        <p>How far your are willing to visit?</p>
+                            <div>
+                                <input type="radio" name="distance" id="over5miles" value="over5miles">
+                                <label for="over5miles">Over 5 miles</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="distance" id="3-5mile" value="3-5mile">
+                                <label for="3-5mile">Between 4 and 5 miles</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="distance" id="2-3miles" value="2-3miles">
+                                <label for="2-3miles">Between 3 and 4 miles</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="distance" id="2-3miles" value="2-3miles">
+                                <label for="2-3miles">Between 2 and 3 miles</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="distance" id="around1mile" value="around1mile">
+                                <label for="around1mile">Around a mile</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="distance" id="weak" value="weak">
+                                <label for="weak">I get tired walking parking lots</label>
+                            </div>
+                    </fieldset>
+                    <h3 class="popup2">PART 3: Exercise ability</h3>
+                    <fieldset class="questions2"> 
+                        <p>Honestly, how far can you run before you are breathing heavily out of control?</p>
+                            <div>
+                                <input type="radio" name="ability" id="over5miles" value="over5miles">
+                                <label for="over5miles">Over 5 miles</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="ability" id="3-5mile" value="3-5mile">
+                                <label for="3-5mile">Between 4 and 5 miles</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="ability" id="2-3miles" value="2-3miles">
+                                <label for="2-3miles">Between 3 and 4 miles</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="ability" id="2-3miles" value="2-3miles">
+                                <label for="2-3miles">Between 2 and 3 miles</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="ability" id="around1mile" value="around1mile">
+                                <label for="around1mile">Around a mile</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="ability" id="weak" value="weak">
+                                <label for="weak">I get tired walking parking lots</label>
+                            </div>
+                        <p>Which is a better result in learning a self defense?</p>
+                            <div>
+                                <input type="radio" name="purpose" id="confidence" value="confidence">
+                                <label for="confidence">Improving confidence</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="purpose" id="lifestyle" value="lifestyle">
+                                <label for="lifestyle">Healthier life style</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="purpose" id="friendship" value="friendship">
+                                <label for="friendship">Create bonding friendships</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="purpose" id="learning" value="learning">
+                                <label for="learning">Learning anti-personnel tactics and sabotage</label>
+                            </div>
+                    </fieldset>
+                    <h3 class="popup3">PART 4: Anything else</h3>
+                    <fieldset class="questions3">                
+                        <p for="instructions">Anything you want to tell?</p>
+                        <textarea id="instructions"></textarea>            
+                    </fieldset>
+                    <fieldset>
+                        <input type="submit" value="Submit!">
+                    </fieldset>
+                </form>
+                </div>
+            </article>
+            <footer>
+                <ul>
+                    <li>About us</li>
+                    <li>Need help</li>
+                    <li>Contact us</li>
+                </ul>
+                <p>©2016 OASIS. All rights reserved by Yubing Zhang.</p>
+            </footer>
+        </div>
+    </body>
+</html>
+
+
+<!--
+reference:
+http://www.w3schools.com/jquery/jquery_hide_show.asp-->
